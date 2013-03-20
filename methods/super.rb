@@ -40,6 +40,7 @@ j=Boy.new(:name=>"jack",:school=>"CZ")
 j.die
 j.angry
 j.marry
+puts j.school
 puts "my school is #{j.school}"
 
 m=Man.new(:name=>"jack's dad")
