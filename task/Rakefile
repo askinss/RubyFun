@@ -1,0 +1,13 @@
+require 'rake'
+
+task :default =>nil
+
+task :call do
+  puts 'call'
+end
+
+task :tester do
+ puts 111
+end
+
+Rake::Task["call"].invoke
